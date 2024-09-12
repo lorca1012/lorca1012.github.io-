@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مدونة شخصية تحتوي على صور لوحات ورسومات وأغلفة كتب مع اقتباسات ونصوص شخصية.">
+    <title>مدونتي الشخصية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+
+        blockquote {
+            font-style: italic;
+            border-left: 5px solid #333;
+            padding-left: 15px;
+            margin: 20px 0;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>مدونتي الفنية</h1>
+</header>
+
+<main>
+    <section>
+        <h2>أعمال فنية مفضلة</h2>
+        <div class="gallery">
+            <img src="path_to_art1.jpg" alt="لوحة فنية 1">
+            <img src="path_to_art2.jpg" alt="لوحة فنية 2">
+            <img src="path_to_art3.jpg" alt="لوحة فنية 3">
+        </div>
+    </section>
+
+    <section>
+        <h2>اقتباسات ملهمة</h2>
+        <blockquote>
+            "الفن هو الكذب الذي يجعلنا ندرك الحقيقة." - بيكاسو
+        </blockquote>
+        <blockquote>
+            "الكتب تُخلق من العزلة والخيال." - إميلي ديكنسون
+        </blockquote>
+    </section>
+
+    <section>
+        <h2>نصوصي الشخصية</h2>
+        <p>
+            هنا يمكنك كتابة نصوصك الشخصية أو تدويناتك.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 مدونتي الشخصية</p>
+</footer>
+
+</body>
+</html>
